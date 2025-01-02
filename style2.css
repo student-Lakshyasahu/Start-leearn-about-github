@@ -1,0 +1,149 @@
+body{
+    background-image: linear-gradient(150deg,rgba(255, 166, 0, 0.692) ,rgba(255, 105, 180, 0.692) 50%,rgba(128, 0, 128, 0.692));
+/* background: linear-gradient(390deg ,rgb(0, 26, 110),rgb(7, 71, 153) ); */
+    /* background-image: linear-gradient(150deg,#fcc737c4,#f26a0fc6,#e73878d6,#7f1891d1); */
+    
+    font-family: "Lacquer", serif;
+      
+}
+#container{
+    width: 35%;
+    height: 20em;
+    background-color: rgba(255,255,255,0.1);
+    border:1px solid black;
+    /* box-shadow: 1px 1px 5px black,-1px -1px 5px black; */
+    text-align: end;
+    transform: translateX(-1200px);
+    transition: box-shadow 1s ease-in 0.5s , transform 1s ease-in 0.5s   ;
+    transform: scale(1);
+    animation: animate 4s ease-in 1s 1 normal ;
+
+}
+#container:hover{
+    box-shadow: 8px 8px 8px rgba(128, 0, 128, 0.692),-4px -4px 16px rgba(255, 166, 0, 0.692) ;
+    transform: scale(1.03);
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+input{
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-bottom: 2%;
+  
+}
+.log{
+    border-radius: 15px;
+    padding: 5px 60px;
+    margin-right: 10%;
+    background-image: linear-gradient(135deg,orange,pink,purple);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+font-size: large;
+font-weight: bold;
+}
+.user{
+    display: inline-block;
+    margin-right: 15%;
+    margin-top: 10%;
+    font-style:oblique;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+ 
+}
+
+.an2{
+    margin-right: 10%;
+    margin-top: 1%;
+}
+a[href="password.com"]
+{
+    margin-left: 1em;
+}
+#an3{
+   margin-right: 12%;
+   margin-top: -1%;
+}
+input::placeholder{
+    background-color: rgba(128, 128, 128, 0.15);
+    
+}
+.container2{
+    display: flex;
+    justify-content:center;
+   margin-top: 13%;
+}
+label{
+    margin-right: 4px;
+}
+.social-media{
+    margin-right: 3em;
+    font-size: 1.5em;
+  
+}
+a:hover{
+    color: black;
+}
+@keyframes animate {
+ from{
+    transform: translateX(-1200px);
+    
+ }
+ to{
+    
+ }
+}
+.face-bt{
+    width: 35px ;
+    height: 35px;
+    border-radius: 50%;
+    padding-right: 4px;
+    font-size: large;
+    margin-right: 0.5em ;
+    transition: transform 1s ease-in 0s;
+}
+.face-bt:hover{
+    background-color: 	#1877F2;
+    color: whitesmoke;
+ transform: translateY(-0.3em);
+
+}
+.insta-bt{
+    width: 35px ;
+    height: 35px;
+    border-radius: 50%;
+    font-size: large;
+    margin-right: 0.5em ;
+    transition: transform 1s ease-in 0s;
+}
+.insta-bt:hover{
+ background:linear-gradient(#f9ce34,#ee2a7b,#6228d7);
+ color:rgba(255, 255, 255, 0.666) ;
+ transform: translateY(-0.3em);
+}
+.twitt-bt{
+    width: 35px ;
+    height: 35px;
+    border-radius: 50%;
+    font-size: large;
+    margin-right: 0.5em ;
+    transition: transform 1s ease-in 0s;
+}
+.twitt-bt:hover{
+   background-color: black;
+   color: white;
+   transform: translateY(-0.3em);
+}
+.whats-bt{
+    width: 35px ;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 0.5em ;
+    transition: transform 1s ease-in 0s;
+}
+.whats-bt:hover{
+    background-color: #25D366;
+   color: white;
+   transform: translateY(-0.3em);
+}
